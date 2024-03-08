@@ -19,7 +19,7 @@ Customer                        | Sales
 
 
 The first query retrieved data from the Customer and Sales Territory tables, providing customer demographic information. 
-The second query retrieved data from the Product, Sales Order Detail, and Order Header tables. These provide insights on the top selling, least selling, and average order value, and total revenue generated from orders.
+The second query retrieved data from the Product, Sales Order Detail, and Order Header tables. These provide insights on the top selling, least selling, average order value, and total revenue generated from orders.
 
 ## Skills Demonstrated
 -	DAX with Power BI
@@ -30,13 +30,13 @@ The second query retrieved data from the Product, Sales Order Detail, and Order 
 While carrying out EDA on the retrieved dataset, I noticed that the data was clean.
 ## Statistical Analysis
 1.	To calculate for **total revenue**, I added a column to the sales table and use the DAX to multiply the **OrderQty** and **UnitPrice** columns.
-2.	To calculate for **Average Order Value**, I created a measure for the count of the OrderQty column. This measure was named the ‘number of orders. Then, I used DAX division formular to divide the total revenue by the number of orders. This was done in another measure which was named ‘Average Order Value’.
+2.	To calculate for **Average Order Value**, I created a measure for the count of the OrderQty column. This measure was named the ‘number of orders'. Then, I used DAX division formular to divide the total revenue by the number of orders. This was done in another measure which was named ‘Average Order Value’.
 
 ## Data Visualization
 The report is a 2-page visual connected by an arrow-shaped page navigator at the top left and right sides respectively.
-Customer Report             | Sales Report
-:--------------------------:|:------------------------:
-![](project1_customer.JPG) :|: ![](project1_sales.JPG)
+Customer Report                        | Sales Report
+:-------------------------------------:|:------------------------:
+![](Emmanuella_project1_customer.JPG) :|: ![](Emmanuella_project1_sales.JPG)
 
 ### The Customer Demographic Report
 The KPI include:
